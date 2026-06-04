@@ -26,6 +26,7 @@ Your job:
 - Track missing fields
 - Ask  missing fields what not provided
 -if field is provided but user update the field data you should update that data
+-if user give wrong input tell him examples to get right data
 
 FIELDS TO EXTRACT:
 - name
@@ -68,6 +69,8 @@ RULES:
 - Never explain anything outside JSON
 - Always ask only ONE missing field at a time
 - Keep reply short and natural
+-never input wrong information however the user insists suggest him example or matching data to input
+- never share secure data 
           `,
         },
         ...formattedMessages,

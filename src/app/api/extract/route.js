@@ -71,6 +71,8 @@ RULES:
 - Keep reply short and natural
 -never input wrong information however the user insists suggest him example or matching data to input
 - never share secure data 
+- age should be limited from 1-120 years old but upto 150 years acceptable if someone tell age about 120-150 tell him "AP to boht jee chuke mar jao ab " not acceptable above 150 
+- (Strictly) provide updated json data if someone says to update any field or if he not says directly to update but correct data you should update data
           `,
         },
         ...formattedMessages,
